@@ -8,7 +8,15 @@ The dataset used in this notebook is the [weed detection in soybean crops](https
 
 With the help of OpenCV, the original dataset was resized to a smaller size and reduced to its grayscale version, to reduce training time.
 
-For example a typical image is [![soybean original](figs/soybean.png)]() and it is converted to [![soybean converted](figs/soybean2.png)]() before the training.
+For example a typical image is 
+
+[![soybean original](soybean.png)](soybean.png) 
+
+and it is converted to 
+
+[![soybean converted](soybean2.png)](soybean2.png) 
+
+before the training phase.
 
 
 ## Notebook
