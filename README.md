@@ -6,7 +6,10 @@ This is a simple multiclass classifier based on a Convolutional Neural Network (
 
 The dataset used in this notebook is the [weed detection in soybean crops](https://www.kaggle.com/fpeccia/weed-detection-in-soybean-crops) taken from Kaggle.
 
-The original dataset is resized to a smaller size and reduced to its grayscale version, to reduce training time.
+With the help of OpenCV, the original dataset was resized to a smaller size and reduced to its grayscale version, to reduce training time.
+
+For example a typical image is [![soybean original](figs/soybean.png)]() and it is converted to [![soybean converted](figs/soybean2.png)]() before the training.
+
 
 ## Notebook
 
@@ -20,5 +23,10 @@ This jupyter notebook defines every single component of a CNN:
 
 
 Every layer has a `forward` function to evaluate loss during training and a `backward` function to realize backpropagation. For more mathematical details, please refer to [Victor Zhou's work](https://victorzhou.com/blog/intro-to-cnns-part-1/).
+
+The final test accuracy is of 64% with 64X64 grayscale images.
+
+
+### Homework
 
 This is the homework assignment of the 7th week for [Siraj Raval course](https://www.machinelearningcourse.io/courses/make-money).
