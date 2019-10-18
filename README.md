@@ -37,4 +37,4 @@ The final test accuracy is of 64% with 64X64 grayscale images.
 
 ### Homework
 
-This is the homework assignment of the 7th week for [Siraj Raval course](https://www.machinelearningcourse.io/courses/make-money).
+This is the homework assignment of the 7th week for [MMWML course](https://www.machinelearningcourse.io/courses/make-money).
